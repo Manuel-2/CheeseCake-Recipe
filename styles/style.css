@@ -12,6 +12,7 @@ html{
     --black-color: #000000;
     --gray1-color: #333333;
     --gray2-color: #4F4F4F;
+    --orange-color: #F2994A;
     --gray4-colro: #BDBDBD;
 }
 
@@ -66,4 +67,86 @@ body{
     background-size: cover;
     border-radius: 12px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.info{
+    margin: 30px 0;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.info__yields{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info__yields-text-title{
+    color: var(--gray4-colro);
+    font-size: 0.8rem;
+}
+.info__yields-text-value{
+    color: var(--orange-color);
+    font-size: 1rem;
+}
+
+
+.info__times{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__time-item{
+    display: flex;
+}
+
+.info__time-text-title{
+    color: var(--gray4-colro);
+    font-size: 0.8rem;
+}
+
+.info__time-text-value{
+    color: var(--gray1-color);
+    font-size: 1rem;
+}
+
+.recipe-block__title{
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 24px;
+    font-weight: 800;
+    color: var(--gray1-color);
+}
+
+.ingredients-block{
+    margin-top: 30px;
+}
+
+.ingredients-block__title{
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 24px;
+    margin-bottom: 13px;
+    font-weight: 400;
+    color: var(--gray1-color);
+    font-style: italic;
+}
+
+.material-list__item{
+    display: flex;
+}
+
+.material-list__check{
+    width: 21px;
+    height: 21px;
+}
+
+.material-list__text{
+    font-size: 1.4rem;
+    line-height: 25px;
+    margin-left: 8px;
+    width: 100%;
 }
