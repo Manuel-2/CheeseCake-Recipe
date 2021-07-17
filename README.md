@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](https://postimg.cc/qgpGM03c)
+![overview.png](https://i.postimg.cc/nVDS2hVW/overview.png)
 
 you can se the proyect deployed [here](https://cheese-cake-recipe.vercel.app/)
 
