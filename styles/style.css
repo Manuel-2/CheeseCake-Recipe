@@ -19,11 +19,16 @@ html{
 body{
     font-family: 'Montserrat', monospace;
     padding: 32px 11px 0 11px;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
 }
 
 .title{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .header__title{
     margin: 0;
@@ -57,11 +62,11 @@ body{
 .header__picture{
     margin-top: 20px;
     min-width: 352px;
-    min-height: 202px;
-    width: 100%;
-    height: 100%;
     max-width: 969px;
-    max-height: 470px;
+    min-height: 202px;
+    max-height: 444px;
+    width: 100%;
+    height: 56vw;
     background-image: url(../src/Pics/photo1.png);
     background-position: center;
     background-size: cover;
@@ -74,8 +79,8 @@ body{
 }
 
 .icon{
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     margin-right: 5px;
 }
 
@@ -113,16 +118,17 @@ body{
     font-size: 1rem;
 }
 
+.recipe-block{
+    margin-bottom: 30px;
+}
+
 .recipe-block__title{
     font-size: 1.8rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 24px;
     font-weight: 800;
     color: var(--gray1-color);
-}
-
-.ingredients-block{
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .ingredients-block__title{
@@ -149,4 +155,73 @@ body{
     line-height: 25px;
     margin-left: 8px;
     width: 100%;
+}
+
+.instructions-block__title{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    font-weight: 550;
+    line-height: 32px;
+    color: var(--gray1-color);
+}
+
+.instructions-block__list{
+    padding-left: 32px;
+}
+
+.intructions-block__list-item p{
+    font-size: 1.6rem;
+    font-weight: 450;
+    line-height: 20px;
+    color: var(--black-color);
+}
+
+.intructions-block__list-item{
+    margin-bottom: 20px;
+}
+
+.intructions-block__list-item::marker{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--orange-color);
+}
+
+.recipe-block__source{
+    color: var(--gray4-colro);
+    font-size: 1.2rem;
+    line-height: 18px;
+    font-style: italic;
+
+}
+
+.recipe-block__source-link a{
+    text-decoration: none;
+    color: var(--gray4-colro);
+}
+
+.recipe-block__source-link a:hover{
+    text-decoration: underline;
+    color: var(--gray2-color);
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__autor{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 17px;
+    text-align: center;
+    color: var(--gray2-color);
+}
+
+.footer__autor a{
+    color: var(--gray1-color);
 }
