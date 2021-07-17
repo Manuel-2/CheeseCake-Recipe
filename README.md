@@ -25,13 +25,13 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
-- - [Contact](#contact)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://ibb.co/ScHNc1b)
+![screenshot](https://postimg.cc/qgpGM03c)
 
 you can se the proyect deployed [here](https://cheese-cake-recipe.vercel.app/)
 
